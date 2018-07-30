@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
+  <Type Name="softfloat">
+    <DisplayString>{*(float*)&amp;v}</DisplayString>
+  </Type>
+  <Type Name="float32_t">
+    <DisplayString>{*(float*)&amp;v}</DisplayString>
+  </Type>
+  <Type Name="softdouble">
+    <DisplayString>{*(double*)&amp;v}</DisplayString>
+  </Type>
+  <Type Name="float64_t">
+    <DisplayString>{*(double*)&amp;v}</DisplayString>
+  </Type>
+</AutoVisualizer>
